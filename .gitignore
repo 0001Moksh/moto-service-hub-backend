@@ -1,0 +1,10 @@
+.venv
+.env.local
+.env.development.local
+.env.test.local
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz

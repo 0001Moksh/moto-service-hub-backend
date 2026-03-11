@@ -1,0 +1,54 @@
+2026-03-10 01:28:08,590 - main - INFO - ==================================================
+2026-03-10 01:28:08,855 - main - INFO - Version: 1.0.0
+2026-03-10 01:28:08,870 - main - INFO - Environment: Development
+2026-03-10 01:28:08,875 - main - INFO - ==================================================
+2026-03-10 01:28:10,590 - httpx - INFO - HTTP Request: GET https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/admin?select=%2A&limit=1 "HTTP/1.1 200 OK"
+2026-03-10 01:28:53,142 - main - INFO - ==================================================
+2026-03-10 01:28:53,151 - main - INFO - ==================================================
+2026-03-10 01:28:56,623 - main - INFO - ==================================================
+2026-03-10 01:28:56,660 - main - INFO - Version: 1.0.0
+2026-03-10 01:28:56,662 - main - INFO - Environment: Development
+2026-03-10 01:28:56,662 - main - INFO - ==================================================
+2026-03-10 01:28:57,672 - httpx - INFO - HTTP Request: GET https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/admin?select=%2A&limit=1 "HTTP/1.1 200 OK"
+2026-03-10 01:29:26,543 - httpx - INFO - HTTP Request: GET https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/admin?select=%2A&limit=1 "HTTP/1.1 200 OK"
+2026-03-10 01:29:26,666 - main - INFO - ==================================================
+2026-03-10 01:29:26,714 - main - INFO - ==================================================
+2026-03-10 18:13:49,946 - httpx - INFO - HTTP Request: GET https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/admin?select=%2A&limit=1 "HTTP/1.1 200 OK"
+2026-03-10 18:15:06,784 - httpx - INFO - HTTP Request: GET https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/customer?select=%2A&mail=eq.mokshbhardwaj2333%40gmail.com "HTTP/1.1 200 OK"
+2026-03-10 18:15:06,797 - app.utils.otp - INFO - OTP stored for mokshbhardwaj2333@gmail.com
+2026-03-10 18:15:11,651 - app.utils.email - INFO - Email sent successfully to mokshbhardwaj2333@gmail.com
+2026-03-10 18:16:18,276 - app.utils.otp - INFO - OTP verified for mokshbhardwaj2333@gmail.com
+2026-03-10 18:16:49,643 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\renuk\Projects\MOTO- SERVICE-HUB\backend\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-03-10 18:18:13,209 - app.utils.file_handler - INFO - File saved: uploads\aadhaar/mokshbhardwaj2333@gmail.com\b52a484c-d207-49b4-a95b-52132b493957_20260310_181813.png
+2026-03-10 18:18:13,239 - app.utils.groq_service - ERROR - Error extracting Aadhaar data: Completions.create() got an unexpected keyword argument 'max_completion_tokens'
+2026-03-10 18:18:13,239 - app.utils.file_handler - INFO - File deleted: uploads\aadhaar/mokshbhardwaj2333@gmail.com\b52a484c-d207-49b4-a95b-52132b493957_20260310_181813.png
+2026-03-10 18:18:13,242 - main - ERROR - HTTP Exception: Completions.create() got an unexpected keyword argument 'max_completion_tokens'
+2026-03-10 18:19:50,907 - app.utils.file_handler - INFO - File saved: uploads\aadhaar/mokshbhardwaj2333@gmail.com\20bda428-b459-45da-9249-b973191bc34a_20260310_181950.png
+2026-03-10 18:19:50,967 - app.utils.groq_service - ERROR - Error extracting Aadhaar data: Completions.create() got an unexpected keyword argument 'max_completion_tokens'
+2026-03-10 18:19:50,980 - app.utils.file_handler - INFO - File deleted: uploads\aadhaar/mokshbhardwaj2333@gmail.com\20bda428-b459-45da-9249-b973191bc34a_20260310_181950.png
+2026-03-10 18:19:50,992 - main - ERROR - HTTP Exception: Completions.create() got an unexpected keyword argument 'max_completion_tokens'
+2026-03-10 18:26:04,307 - httpx - INFO - HTTP Request: GET https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/customer?select=%2A&mail=eq.mokshbhardwaj2333%40gmail.com "HTTP/1.1 200 OK"
+2026-03-10 18:26:04,320 - app.utils.otp - INFO - OTP stored for mokshbhardwaj2333@gmail.com
+2026-03-10 18:26:09,214 - app.utils.email - INFO - Email sent successfully to mokshbhardwaj2333@gmail.com
+2026-03-10 18:26:27,349 - app.utils.otp - INFO - OTP verified for mokshbhardwaj2333@gmail.com
+2026-03-10 18:26:56,118 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\renuk\Projects\MOTO- SERVICE-HUB\backend\venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-03-10 18:30:24,301 - httpx - INFO - HTTP Request: GET https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/customer?select=%2A&mail=eq.mokshbhardwaj2333%40gmail.com "HTTP/1.1 200 OK"
+2026-03-10 18:30:24,312 - app.utils.otp - INFO - OTP stored for mokshbhardwaj2333@gmail.com
+2026-03-10 18:30:29,386 - app.utils.email - INFO - Email sent successfully to mokshbhardwaj2333@gmail.com
+2026-03-10 18:30:29,557 - httpx - INFO - HTTP Request: POST https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/customer "HTTP/1.1 400 Bad Request"
+2026-03-10 18:30:29,565 - app.routers.customer - WARNING - Could not create customer record in DB: {'code': 'PGRST204', 'details': None, 'hint': None, 'message': "Could not find the 'email_verified' column of 'customer' in the schema cache"}. Continuing anyway...
+2026-03-10 18:31:42,073 - httpx - INFO - HTTP Request: GET https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/customer?select=%2A&mail=eq.mokshbhardwaj2333%40gmail.com "HTTP/1.1 200 OK"
+2026-03-10 18:31:42,082 - app.utils.otp - INFO - OTP stored for mokshbhardwaj2333@gmail.com
+2026-03-10 18:31:49,697 - app.utils.email - INFO - Email sent successfully to mokshbhardwaj2333@gmail.com
+2026-03-10 18:31:49,832 - httpx - INFO - HTTP Request: POST https://brnsimoaoxuhpxzrfpcg.supabase.co/rest/v1/customer "HTTP/1.1 400 Bad Request"
+2026-03-10 18:31:49,841 - app.routers.customer - WARNING - Could not create customer record in DB: {'code': '23502', 'details': 'Failing row contains (1, 2026-03-10 13:01:49.758878+00, mokshbhardwaj2333@gmail.com, null, null, null, null, null).', 'hint': None, 'message': 'null value in column "password" of relation "customer" violates not-null constraint'}. Continuing anyway...
