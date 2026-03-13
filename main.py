@@ -6,7 +6,8 @@ from datetime import datetime
 
 from app.core.config import settings
 from app.core.database import check_database_connection
-from app.routers import customer, vehicle, admin, owner, mechanic, booking
+from app.routers import customer, vehicle, admin, owner, mechanic
+from app.routers import booking_v2 as booking  # Use scalable booking router
 
 # Setup logging
 logging.basicConfig(
