@@ -1,8 +1,14 @@
-.venv
+# Virtual Environment
+venv/
+.venv/
+
+# Environment files
 .env.local
 .env.development.local
 .env.test.local
-__pycache__
+
+# Python cache
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
